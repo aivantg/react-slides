@@ -3,6 +3,13 @@ import theme from 'mdx-deck/themes'
 export default {
   ...theme,
 
+  transitionTimingFunction: 'linear',
+  transitionDuration: '.3s',
+  colors: {
+    background: '#CCFFFF',
+    text: '#222222'
+  }
+
   // Customize your presentation theme here.
   //
   // Read the docs for more info:
